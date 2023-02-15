@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1824,11 +1818,7 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
-	header h2 + p {
-		font-size: 1.1em;
-		margin-top: -0.5em;
-		line-height: 1em;
-	}
+	
 
 	header h3 + p {
 		font-size: 1.1em;
@@ -1849,17 +1839,15 @@ input, select, textarea {
 		font-size: 3.5em;
 	}
 
-		header.major h2 + p {
-			color: rgb(71, 70, 70);
-			font-size: 1.75em;
-			font-weight: 700;
-			margin-top: -0.75em;
-		}
+		
 		h3 + p {
 			color: rgb(71, 70, 70);
 			
 		}
-
+		h5 {
+			color: rgb(71, 70, 70);
+			
+		}
 /* Form */
 
 	form {
@@ -3221,7 +3209,7 @@ input, select, textarea {
 			}
 
 				header.major h2 + p {
-					font-size: 1.5em;
+					font-size: 1em;
 				}
 
 		/* Features */
