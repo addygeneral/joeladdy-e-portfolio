@@ -1818,7 +1818,11 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
-	
+	header h2 + p {
+		font-size: 1.1em;
+		margin-top: -0.5em;
+		line-height: 1em;
+	}
 
 	header h3 + p {
 		font-size: 1.1em;
@@ -1839,7 +1843,13 @@ input, select, textarea {
 		font-size: 3.5em;
 	}
 
-		
+		header.major h2 + p {
+			color: rgb(71, 70, 70);
+			font-size: 1.2em;
+			font-weight: 700;
+			margin-top: -0.75em;
+			line-height: 1.3em;
+		}
 		h3 + p {
 			color: rgb(71, 70, 70);
 			
@@ -3209,7 +3219,7 @@ input, select, textarea {
 			}
 
 				header.major h2 + p {
-					font-size: 1em;
+					font-size: 1.5em;
 				}
 
 		/* Features */
